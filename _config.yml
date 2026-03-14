@@ -8,9 +8,12 @@
 
 # Basic Site Settings
 # Basic Site Settings
-title: "Hou Shengren/侯胜任"
 name: &name "Hou Shengren"
-description: &description "PhD Candidate @ TU Delft | Electricity Market Expert"
+title: "Hou Shengren | 侯胜任"
+description: "Energy technology entrepreneur and researcher"
+url: "https://energyquantresearch.github.io"
+baseurl: "/ShengrenHou.github.io"
+repository: "EnergyQuantResearch/ShengrenHou.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -20,10 +23,10 @@ author:
   avatar           : "profile_hou.jpg"
   name             : "Hou Shengren"
   # pronouns         : # example: "she/her"  
-  bio              : "PhD Candidate @ TU Delft | Electricity Market Expert"
-  location         : "Delft"
-  employer         : "TU Delft University"
-  uri              : "https://shengrenhou.github.io"
+  bio              : "Energy technology entrepreneur and researcher"
+  location         : "Europe / China"
+  employer         :
+  uri              : "https://energyquantresearch.github.io/ShengrenHou.github.io/"
   email            : "houshengren97@gmail.com" 
 
   # Academic websites
@@ -42,6 +45,7 @@ author:
   # github           : "academicpages"
   # kaggle           : # Username  
   # stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  github           : "shengrenhou"
 
   # Social media
   # bluesky          : "bsky.app" # Replace this with you Bluesky username

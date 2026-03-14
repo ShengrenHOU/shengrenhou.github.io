@@ -7,204 +7,88 @@ redirect_from:
   - /about.html
 ---
 
-<style>
-  #tabs {
-    margin-bottom: 20px;
-  }
-  #tabs button {
-    padding: 10px 20px;
-    margin-right: 10px;
-    cursor: pointer;
-    background-color: #007acc;
-    color: white;
-    border: none;
-    border-radius: 4px;
-  }
-  #tabs button:hover {
-    background-color: #005f99;
-  }
-  .tabcontent {
-    display: none;
-  }
-  .tabcontent.active {
-    display: block;
-  }
-</style>
+## English
 
-<div id="tabs">
-  <button onclick="openTab('english')">English</button>
-  <button onclick="openTab('chinese')">中文</button>
-</div>
+Hou Shengren is an energy technology entrepreneur and researcher working at the intersection of electricity markets, AI decision systems, and energy digitalization. His work connects academic research, power trading practice, and product thinking across Europe and China.
 
-<div id="english" class="tabcontent active">
+### Current Focus
 
-<h2>About Me</h2>
+- Building decision-support tools for electricity markets and flexible energy assets.
+- Translating forecasting, optimization, and reinforcement learning research into usable products.
+- Exploring market intelligence and digitalization pathways for storage, virtual power plants, and energy companies.
 
-<p>I am Hou Shengren, an electricity market expert. I have comprehensive knowledge of power systems and markets across EU, USA, Japan and China. I am a researcher in the Netherlands, focusing on electricity markets, power derivatives, and transmission right auctions.</p>
+### Selected Work
 
-<h2>Education</h2>
+- Founded Energy Quant Research Institution to bridge academic work and applied energy-market tooling.
+- Worked in European short-term power trading at Northpool and OTC Flow, focusing on market analysis, price formation, and strategy development.
+- Building public-facing energy technology work around Reneng Technology, with a focus on AI-enabled market intelligence, decision support, and energy digitalization in China.
 
-<ul>
-<li><strong>PhD Candidate in Electrical Engineering and Computer Science</strong> (2021-2024 expected)<br>
-  <em>Technische Universiteit Delft, Netherlands</em><br>
-  Research Topic: Reinforcement learning-based profiting in distribution network through battery dispatch</li>
+### Research Foundations
 
-<li><strong>M.Sc. in Electrical Engineering</strong> (2018-2021)<br>
-  <em>Guangxi University, Guangxi, China</em><br>
-  Research Topic: Cross-border electricity transmission in the Chinese power market related to sustainable environmental issues</li>
+- Electricity market design, market behavior, and cross-border trading mechanisms.
+- Time-series forecasting, probabilistic modeling, optimization, and decision support.
+- Reinforcement learning and safe AI for energy systems.
+- Storage, flexibility, and virtual power plant strategy.
 
-<li><strong>Bachelor of Technology in Electrical and Electronics Engineering</strong> (2014-2018)<br>
-  <em>Northeast Electric Power University, Jilin, China</em><br>
-  Courses: Power flow analysis, Power market policy</li>
-</ul>
+### Selected Publications
 
-<h2>Research Interests</h2>
+1. *RL-ADN: A high-performance Deep Reinforcement Learning environment for optimal Energy Storage Systems dispatch in active distribution networks* — *Energy and AI*, 2025.
+2. *Safe Imitation Learning-based Optimal Energy Storage Systems Dispatch in Distribution Networks* — arXiv, 2024.
+3. *Optimal energy system scheduling using a constraint-aware reinforcement learning algorithm* — *International Journal of Electrical Power & Energy Systems*, 2023.
 
-<p>My research focuses on the intersection of power systems, markets, and artificial intelligence. I am particularly interested in developing innovative solutions for power market profiting and congestion management using flexibility in distribution networks.</p>
+More publications are listed on the [Publications]({{ '/publications/' | relative_url }}) page and on [Google Scholar](https://scholar.google.com/citations?user=0pHHqwYAAAAJ&hl=zh-CN).
 
-<h3>Key Research Areas:</h3>
+### Latest News Highlights
 
-<ul>
-<li><strong>AI-based Power Market Profiting</strong>
-  <ul>
-    <li>Reinforcement learning approaches for battery dispatch</li>
-    <li>Predictive analytics for price forecasting</li>
-    <li>Optimization techniques for bidding strategies</li>
-  </ul>
-</li>
+- **2026:** Continuing to build public-facing energy technology work focused on AI-enabled decision systems and energy digitalization.
+- **2025:** Received the NWO Rubicon Fellowship and won the Netherlands division of the Shenzhen Innovation and Entrepreneurship Competition.
+- **2024:** Completed doctoral work at TU Delft and expanded research-to-industry work through entrepreneurship and European power trading roles.
 
-<li><strong>Congestion Management Strategies</strong>
-  <ul>
-    <li>Utilizing flexibility in distribution networks</li>
-    <li>Developing market-based mechanisms</li>
-    <li>Analyzing distributed energy resources impact</li>
-  </ul>
-</li>
+[View all updates]({{ '/news/' | relative_url }})
 
-<li><strong>Algorithm Trading for Cross-Border Trading</strong>
-  <ul>
-    <li>Safe speculation strategies for DA/ID markets</li>
-    <li>Algorithms for cross-border capacity allocation</li>
-    <li>Market coupling mechanisms analysis</li>
-  </ul>
-</li>
+### Contact
 
-<li><strong>EUPHEMIA Algorithm</strong>
-  <ul>
-    <li>Reproducing and investigating algorithm behavior</li>
-    <li>Analyzing parameter impacts on market outcomes</li>
-    <li>Identifying improvements for market efficiency</li>
-  </ul>
-</li>
-</ul>
+For collaboration, speaking, or research conversations, please visit the [Contact]({{ '/contact/' | relative_url }}) page.
 
-<h2>Personal Interests</h2>
+## 中文
 
-<p>In my free time, I enjoy reading history books, participating in non-profit activities, and staying fit.</p>
+侯胜任是一名能源科技创业者与研究者，长期关注电力市场、人工智能决策系统与能源数字化的交叉问题。他的工作连接学术研究、电力交易实践与产品化思维，覆盖欧洲与中国的能源场景。
 
-<h2>Recent News</h2>
+### 当前关注
 
-<p>[MM/YYYY]: Placeholder for future news item. Will be updated with actual news.</p>
+- 面向电力市场与灵活性资产的决策支持工具。
+- 将预测、优化与强化学习研究转化为可用的产品能力。
+- 面向储能、虚拟电厂与能源企业的市场分析、智能决策与数字化路径。
 
-<p>[MM/YYYY]: Placeholder for future news item. Will be updated with actual news.</p>
+### 代表性工作
 
-<p>[MM/YYYY]: Placeholder for future news item. Will be updated with actual news.</p>
+- 创立 Energy Quant Research Institution，推动研究成果向能源市场工具与方法转化。
+- 在 Northpool 与 OTC Flow 参与欧洲短期电力交易与策略研究，重点关注市场分析、价格形成与策略开发。
+- 围绕任能科技推进公开面向市场的能源科技工作，聚焦 AI 驱动的市场情报、决策支持与能源数字化。
 
-<p>[MM/YYYY]: Placeholder for future news item. Will be updated with actual news.</p>
+### 研究基础
 
-<p>[MM/YYYY]: Placeholder for future news item. Will be updated with actual news.</p>
+- 电力市场设计、市场行为与跨区交易机制。
+- 时间序列预测、概率建模、优化与决策支持。
+- 强化学习与安全 AI 在能源系统中的应用。
+- 储能、灵活性资源与虚拟电厂策略。
 
-</div>
+### 代表性论文
 
-<div id="chinese" class="tabcontent">
+1. *RL-ADN: A high-performance Deep Reinforcement Learning environment for optimal Energy Storage Systems dispatch in active distribution networks* — *Energy and AI*, 2025。
+2. *Safe Imitation Learning-based Optimal Energy Storage Systems Dispatch in Distribution Networks* — arXiv, 2024。
+3. *Optimal energy system scheduling using a constraint-aware reinforcement learning algorithm* — *International Journal of Electrical Power & Energy Systems*, 2023。
 
-<h2>关于我</h2>
+完整论文列表见 [Publications]({{ '/publications/' | relative_url }}) 页面与 [Google Scholar](https://scholar.google.com/citations?user=0pHHqwYAAAAJ&hl=zh-CN)。
 
-<p>我是侯胜任，电力市场专家。我了解欧洲、美国、日本和中国的电力系统和电力市场。我目前在荷兰担任研究员，专注于电力市场、电力衍生品和传输权拍卖。</p>
+### 最近更新
 
-<p>我的职业目标是继续在短期电力交易方面精进，并带领一个高效的团队或公司，利用基本面和量化策略来实现稳定的盈利，打造一个成功的交易公司。</p>
+- **2026：** 持续推进公开面向市场的能源科技工作，重点聚焦 AI 决策系统与能源数字化。
+- **2025：** 获得荷兰 NWO Rubicon Fellowship，并获得深圳创新创业大赛荷兰赛区冠军。
+- **2024：** 完成代尔夫特理工大学博士阶段研究，并进一步拓展创业与欧洲电力交易实践。
 
-<h2>教育背景</h2>
+[查看全部动态]({{ '/news/' | relative_url }})
 
-<ul>
-<li><strong>电气工程与计算机科学博士候选人</strong> (2021-2024 预计)<br>
-  <em>荷兰代尔夫特理工大学</em><br>
-  研究课题：基于强化学习的配电网电池调度盈利</li>
+### 联系方式
 
-<li><strong>电气工程硕士</strong> (2018-2021)<br>
-  <em>中国广西大学</em><br>
-  研究课题：中国电力市场中与可持续环境问题相关的跨境电力传输</li>
-
-<li><strong>电气与电子工程学士</strong> (2014-2018)<br>
-  <em>中国吉林东北电力大学</em><br>
-  课程：电力潮流分析，电力市场政策</li>
-</ul>
-
-<h2>研究兴趣</h2>
-
-<p>我的研究集中在电力系统、市场和人工智能的交叉领域。我特别关注开发创新解决方案，用于电力市场盈利和利用配电网灵活性进行拥塞管理。</p>
-
-<h3>主要研究领域：</h3>
-
-<ul>
-<li><strong>基于人工智能的电力市场盈利</strong>
-  <ul>
-    <li>用于电池调度的强化学习方法</li>
-    <li>价格预测的预测分析</li>
-    <li>投标策略的优化技术</li>
-  </ul>
-</li>
-
-<li><strong>拥塞管理策略</strong>
-  <ul>
-    <li>利用配电网灵活性</li>
-    <li>开发基于市场的机制</li>
-    <li>分析分布式能源资源的影响</li>
-  </ul>
-</li>
-
-<li><strong>跨境交易的算法交易</strong>
-  <ul>
-    <li>日前/日内市场的安全投机策略</li>
-    <li>跨境容量分配算法</li>
-    <li>市场耦合机制分析</li>
-  </ul>
-</li>
-
-<li><strong>EUPHEMIA算法</strong>
-  <ul>
-    <li>复制和研究算法行为</li>
-    <li>分析参数对市场结果的影响</li>
-    <li>识别提高市场效率的改进</li>
-  </ul>
-</li>
-</ul>
-
-<h2>个人兴趣</h2>
-
-<p>我空余时间喜欢读历史书、参与非营利组织的活动以及健身。</p>
-
-<h2>最近动态</h2>
-
-<p>[月/年]: 未来新闻项目的占位符。将用实际新闻更新。</p>
-
-<p>[月/年]: 未来新闻项目的占位符。将用实际新闻更新。</p>
-
-<p>[月/年]: 未来新闻项目的占位符。将用实际新闻更新。</p>
-
-<p>[月/年]: 未来新闻项目的占位符。将用实际新闻更新。</p>
-
-<p>[月/年]: 未来新闻项目的占位符。将用实际新闻更新。</p>
-
-</div>
-
-<script>
-function openTab(tabName) {
-  var i;
-  var x = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < x.length; i++) {
-    x[i].classList.remove("active");
-  }
-  document.getElementById(tabName).classList.add("active");
-}
-</script>
+合作交流、公开演讲或研究讨论可前往 [Contact]({{ '/contact/' | relative_url }}) 页面。

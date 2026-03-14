@@ -5,102 +5,42 @@ permalink: /contact/
 author_profile: true
 ---
 
-# Get in Touch
+## English
 
-Thank you for your interest in my work. I welcome inquiries about my research, potential collaborations, speaking engagements, or any other professional matters.
+The easiest way to reach me for public-facing collaboration is by email.
 
-## Contact Information
+### Contact
 
-**Email:** [houshengren97@gmail.com](mailto:houshengren97@gmail.com)
+- **Email:** [houshengren97@gmail.com](mailto:houshengren97@gmail.com)
+- **GitHub:** [github.com/shengrenhou](https://github.com/shengrenhou)
+- **Google Scholar:** [Scholar profile](https://scholar.google.com/citations?user=0pHHqwYAAAAJ&hl=zh-CN)
 
-**Location:** Delft University of Technology  
-Faculty of Electrical Engineering, Mathematics and Computer Science  
-Mekelweg 4, 2628 CD Delft  
-The Netherlands
+### Collaboration
 
-**LinkedIn:** [Connect with me on LinkedIn](https://www.linkedin.com/in/your-linkedin-profile/)
+I am open to conversations about:
 
-## Research Interests
+- Electricity markets and market design.
+- AI decision systems for energy applications.
+- Storage, flexibility, and virtual power plant strategy.
+- Research-to-product translation in energy technology.
+- Public talks, workshops, and collaboration opportunities.
 
-If you're interested in discussing any of the following topics, please don't hesitate to reach out:
+## 中文
 
-- AI-based power market profiting
-- Congestion management strategies using flexibility in distribution networks
-- Algorithm trading for cross-border trading in DA/ID power markets
-- Arbitrage strategies in power markets
-- Single Day Ahead Clearing Algorithm (EUPHEMIA)
+如果你希望就公开合作事项取得联系，电子邮件是最直接的方式。
 
-## Collaboration Opportunities
+### 联系方式
 
-I am always open to new collaboration opportunities with:
+- **邮箱：** [houshengren97@gmail.com](mailto:houshengren97@gmail.com)
+- **GitHub：** [github.com/shengrenhou](https://github.com/shengrenhou)
+- **Google Scholar：** [Scholar profile](https://scholar.google.com/citations?user=0pHHqwYAAAAJ&hl=zh-CN)
 
-- Academic researchers in power systems, markets, and AI
-- Industry professionals working in power trading and market analysis
-- Students interested in pursuing research in related fields
+### 合作方向
 
-## Contact Form
+欢迎围绕以下主题交流：
 
-<style>
-.contact-form {
-  max-width: 600px;
-  margin: 0 auto;
-}
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-.contact-form textarea {
-  height: 150px;
-}
-.contact-form button {
-  background-color: #007acc;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.contact-form button:hover {
-  background-color: #005f99;
-}
-</style>
-
-<div class="contact-form">
-  <form action="https://formspree.io/f/your-formspree-endpoint" method="POST">
-    <div>
-      <input type="text" name="name" placeholder="Your Name" required>
-    </div>
-    <div>
-      <input type="email" name="email" placeholder="Your Email" required>
-    </div>
-    <div>
-      <input type="text" name="subject" placeholder="Subject" required>
-    </div>
-    <div>
-      <textarea name="message" placeholder="Your Message" required></textarea>
-    </div>
-    <button type="submit">Send Message</button>
-  </form>
-</div>
-
-<script>
-  // This script will be replaced with your actual form handling logic
-  document.querySelector('.contact-form form').addEventListener('submit', function(e) {
-    // Uncomment the line below when you have set up your form endpoint
-    // return;
-    
-    e.preventDefault();
-    alert('This contact form is currently for demonstration purposes only. Please use the email address provided above to get in touch.');
-  });
-</script>
-
-## Response Time
-
-I strive to respond to all inquiries within 2-3 business days. For urgent matters, please indicate so in your email subject line.
-
-Thank you for your interest, and I look forward to connecting with you!
+- 电力市场与市场设计。
+- 面向能源场景的 AI 决策系统。
+- 储能、灵活性资源与虚拟电厂策略。
+- 能源科技中的研究转化与产品化实践。
+- 公开演讲、工作坊与合作机会。

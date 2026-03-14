@@ -5,96 +5,60 @@ permalink: /research/
 author_profile: true
 ---
 
-# Research Interests
+## English
 
-My research focuses on the intersection of power systems, markets, and artificial intelligence. I am particularly interested in developing innovative solutions for power market profiting and congestion management using flexibility in distribution networks.
+This page summarizes the long-term themes behind my work. It focuses on methods, application domains, and public-facing research directions rather than internal company details.
 
-## Key Research Areas
+### Research Themes
 
-### AI-based Power Market Profiting
+- **Electricity markets and market behavior:** market design, price formation, cross-border mechanisms, and short-term market structure.
+- **AI decision systems for energy:** forecasting, optimization, probabilistic modeling, and decision support for complex energy environments.
+- **Storage and flexibility:** operational strategy for batteries and flexible resources across market settings.
+- **Market-oriented energy digitalization:** turning energy data, models, and workflows into usable decision systems for real-world operations.
 
-I develop advanced algorithms and models to optimize trading strategies in power markets. My work includes:
+### Methods
 
-- Reinforcement learning approaches for battery dispatch in distribution networks
-- Predictive analytics for price forecasting in day-ahead and intraday markets
-- Optimization techniques for bidding strategies in power markets
-- Machine learning models for identifying arbitrage opportunities
+- Time-series forecasting and feature engineering.
+- Optimization and constraint-aware decision models.
+- Reinforcement learning and safe AI for energy systems.
+- Applied market analysis grounded in real trading and operational settings.
 
-### Congestion Management Strategies
+### Selected Public Projects
 
-I research innovative approaches to manage congestion in power networks, particularly:
+- **RL-ADN:** an open research environment for energy storage dispatch and deep reinforcement learning.
+- **DATALESs:** system-theoretic data analytics for local energy systems and green-building coordination.
+- **TU Delft campus energy digital twin work:** monitoring, forecasting, and decision-support ideas for campus-scale energy systems.
+- **Applied market decision tooling:** translating research ideas into market intelligence and product-oriented workflows.
 
-- Utilizing flexibility in distribution networks to alleviate congestion
-- Developing market-based mechanisms for congestion management
-- Analyzing the impact of distributed energy resources on network congestion
-- Designing incentive schemes for flexibility providers
+### Collaboration
 
-### Algorithm Trading for Cross-Border Trading
+I am interested in collaboration on electricity markets, energy AI, storage strategy, research translation, and public-facing energy digitalization projects. For contact details, please visit the [Contact]({{ '/contact/' | relative_url }}) page.
 
-My work in cross-border trading includes:
+## 中文
 
-- Developing safe speculation strategies for trading in DA and ID power markets
-- Creating algorithms for optimal cross-border capacity allocation
-- Analyzing market coupling mechanisms and their impact on trading opportunities
-- Designing robust trading algorithms that account for market uncertainties
+本页概述我长期关注的研究方向，重点放在方法、应用场景与公开可讨论的研究主题上，不涉及公司内部细节。
 
-### Single Day Ahead Clearing Algorithm (EUPHEMIA)
+### 研究主题
 
-I have extensively studied the EUPHEMIA algorithm, focusing on:
+- **电力市场与市场行为：** 电力市场设计、价格形成、跨区交易机制与短期市场结构。
+- **能源领域的 AI 决策系统：** 预测、优化、概率建模，以及复杂能源环境中的决策支持。
+- **储能与灵活性资源：** 面向不同市场场景的电池与灵活性资产运行策略。
+- **市场化导向的能源数字化：** 将数据、模型与工作流转化为可落地的决策系统。
 
-- Reproducing and investigating the algorithm's behavior under various conditions
-- Analyzing the impact of algorithm parameters on market outcomes
-- Identifying potential improvements to enhance market efficiency
-- Understanding the implications of algorithm design on market participants
+### 方法
 
-# Current Projects
+- 时间序列预测与特征工程。
+- 优化与约束感知决策模型。
+- 强化学习与安全 AI 在能源系统中的应用。
+- 基于真实交易与运行场景的市场分析方法。
 
-## Series Analysis and Prediction for Intraday Capacity Release
+### 公开项目
 
-This project aims to increase profitability in short-term power trading through better prediction of intraday capacity release. Key components include:
+- **RL-ADN：** 面向储能调度与深度强化学习的开源研究环境。
+- **DATALESs：** 面向本地能源系统与绿色建筑协同的系统理论数据分析项目。
+- **代尔夫特理工校园能源数字孪生相关工作：** 围绕监测、预测与决策支持展开。
+- **市场决策工具探索：** 将研究方法转化为市场情报与产品化工作流。
 
-- Development of optimization models for IDCC release
-- Creation of analytical prediction models for intraday capacity release
-- Assessment of Power Transfer Distribution Factors (PTDF) impacts
-- Analysis of Power Shift Transformers (PSTs) effects on network flows
+### 合作
 
-## Hybrid Energy Forecasting and Trading Competition
-
-As part of the IEEE Power and Energy Society Working Group on Energy Forecasting and Analytics competition, this project involves:
-
-- Developing probabilistic forecasts for wind and solar power production
-- Modeling price distributions for day-ahead markets
-- Creating joint distribution models for system prices
-- Formulating optimal bidding strategies using conditional price models
-
-## Smart Energy Transition at TU Delft
-
-This ongoing project focuses on developing a digital twin at TU Delft Campus for real-time monitoring and analysis:
-
-- Implementing smart state estimation for network monitoring
-- Developing time-series forecasting models for load consumption
-- Creating visualization tools for network analysis
-- Designing control algorithms for optimal energy management
-
-## DATALESs: System-Theoretic Data Analytics for Local Energy Systems (中荷面上合作基金)
-
-This collaborative project aims to develop new system-theoretic data analytics (AI & ML) methods to enhance the coordination of local energy systems (LESs) and green buildings:
-
-- Creating models for LESs operators to enhance operation by coordinating distributed energy resources (DERs)
-- Developing tools for aggregators and energy traders to estimate energy flexibility availability
-- Implementing a smart control framework based on edge computing and 5G communication
-- Designing information models to improve stakeholder integration and implementation of green buildings
-
-# Publications
-
-For a complete list of my publications, please visit the [Publications](/publications/) page.
-
-# Collaborations
-
-I actively collaborate with researchers and industry professionals in the field of power systems and markets. Current collaborations include:
-
-- Prof. Peter Palensky at TU Delft on reinforcement learning applications
-- Prof. Pedro at TU Delft on congestion management strategies
-- Industry partners on practical applications of research findings
-
-If you are interested in collaborating on research projects related to power markets, systems, or AI applications in the energy sector, please [contact me](/contact/).
+如果你关注电力市场、能源 AI、储能策略、研究转化或能源数字化实践，欢迎通过 [Contact]({{ '/contact/' | relative_url }}) 页面联系。

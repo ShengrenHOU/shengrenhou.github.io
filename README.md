@@ -1,75 +1,58 @@
-# Academic Pages
-**Academic Pages is a Github Pages template for academic websites.**
+# Hou Shengren Public Site
 
-# Getting Started
+This repository contains the public bilingual website for Hou Shengren. The site is positioned as a public personal profile for an energy technology entrepreneur and researcher, not as an internal company site or an academic-only homepage.
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+## Purpose and audience
 
-See more info at https://academicpages.github.io/
+- Present a public profile for readers in academia, industry, media, and collaboration networks.
+- Explain current work across electricity markets, AI decision systems, storage and flexibility, and energy digitalization.
+- Provide a curated record of public milestones without exposing private or internal information.
 
-## Running locally
+## Bilingual structure
 
-When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+The main site pages are maintained in both English and Chinese on the same routes:
 
-1. Clone the repository and made updates as detailed above.
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+- `About`
+- `News`
+- `Research`
+- `Publications`
+- `CV`
+- `Contact`
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+## Public-content and privacy rules
 
-## Using Docker
+- Use only public-safe summaries.
+- Do not publish phone numbers, detailed addresses, birth dates, private identifiers, or internal company operating details.
+- Do not publish financing structure, equity terms, customer specifics, contracts, hiring plans, internal meeting notes, or government-relations details.
+- Treat the `News` page as a manually curated public milestones page, not as an internal changelog.
 
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
+## Updating the site
 
-Start by build the container:
+- Update the page content under `_pages/`.
+- Keep `News` reverse-chronological and public-safe.
+- Run `py -3 scripts/verify_public_site.py` after content changes.
+- If Ruby and Bundler are available, build locally with `bundle exec jekyll build`.
+- If local Ruby is unavailable, rely on the GitHub Actions Pages workflow for build verification.
 
-```bash
-docker build -t jekyll-site .
-```
+## Publishing model
 
-Next, run the container:
-```bash
-docker run -p 4000:4000 --rm -v $(pwd):/usr/src/app jekyll-site
-```
+This repository is treated as an organization-owned GitHub Pages project site.
 
-# Maintenance
+- Target canonical public URL: `https://energyquantresearch.github.io/ShengrenHou.github.io/`
+- Repository path: `EnergyQuantResearch/ShengrenHou.github.io`
+- Default branch: `master`
+- No custom domain is configured in this round.
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+## Verified publishing reality on March 14, 2026
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
+- `git remote -v` points to `EnergyQuantResearch/ShengrenHou.github.io`.
+- The current checked-out branch is `master`.
+- No `CNAME` file exists in the repository.
+- Before this governance pass, `_config.yml` did not define `url`, `baseurl`, or `repository`.
+- `https://shengrenhou.github.io` returned HTTP `404` when checked from this environment on March 14, 2026.
+- `https://energyquantresearch.github.io/ShengrenHou.github.io/` did not return a usable response from this environment before the Pages configuration was updated, so the old personal domain must not be treated as canonical.
 
-## Bugfixes and enhancements
+## Deployment notes
 
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
-
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
-
----
-<div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
-
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
-</div>
+- GitHub Actions builds the Jekyll site and deploys the generated `_site` output to GitHub Pages.
+- The workflow is configured for organization-owned project Pages hosting rather than personal-username Pages hosting.
