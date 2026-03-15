@@ -72,6 +72,7 @@ def main() -> int:
         "_includes/seo.html": ["page.seo_title", 'meta name="description"', "seo_site_name", '"sameAs"'],
         "assets/css/main.scss": ['@import "founder-site";'],
         "assets/js/lang-toggle.js": ["localStorage", "navigator.language", "data-site-lang", "data-lang-option"],
+        "_sass/_founder-site.scss": ["justify-content: center;", '[data-site-lang="zh"] .founder-hero h1'],
     }
     for relative_path, markers in file_checks.items():
         if not (ROOT / relative_path).exists():
@@ -84,10 +85,10 @@ def main() -> int:
         "_pages/about.md": {
             "layout": "layout: home-founder",
             "expected": [
-                'seo_title: "Hou Shengren | 侯胜任"',
                 'excerpt: "Founder website of Hou Shengren',
                 'data-lang="en"',
                 'data-lang="zh"',
+                "Beijing Reneng Technology, TU Delft, and Northpool.",
                 "founder-hero",
                 "current-focus",
                 "selected-work",
@@ -99,7 +100,16 @@ def main() -> int:
         },
         "_pages/news.md": {
             "layout": "layout: single-clean",
-            "expected": ['excerpt: "Selected public milestones', 'data-lang="en"', 'data-lang="zh"', "news-timeline", "2026", "2025"],
+            "expected": [
+                'excerpt: "Selected public milestones',
+                'data-lang="en"',
+                'data-lang="zh"',
+                "news-timeline",
+                "2026",
+                "2025",
+                "Completed an angel financing round in December 2025.",
+                "2025 年 12 月完成天使轮融资。",
+            ],
         },
         "_pages/research.md": {
             "layout": "layout: single-clean",
@@ -111,7 +121,16 @@ def main() -> int:
         },
         "_pages/cv.md": {
             "layout": "layout: single-clean",
-            "expected": ['excerpt: "Public-profile CV of Hou Shengren', 'data-lang="en"', 'data-lang="zh"', "experience-list", "Selected Experience", "经历精选"],
+            "expected": [
+                'excerpt: "Public-profile CV of Hou Shengren',
+                'data-lang="en"',
+                'data-lang="zh"',
+                "experience-list",
+                "Selected Experience",
+                "经历精选",
+                "CEO, Beijing Reneng Technology",
+                "北京任能科技 CEO",
+            ],
         },
         "_pages/contact.md": {
             "layout": "layout: single-clean",
@@ -133,6 +152,10 @@ def main() -> int:
         "## 中文",
         "This page records public milestones only.",
         "本页只记录适合公开传播的里程碑信息",
+        "OTC Flow",
+        "Energy Quant CEO",
+        "Launched the renewed founder-and-researcher public website.",
+        "发布新版 Founder + Researcher 个人公共网站。",
     ]
 
     for relative_path, expectation in page_expectations.items():

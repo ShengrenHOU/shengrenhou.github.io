@@ -16,8 +16,8 @@ redirect_from:
       <p class="founder-hero__eyebrow">Energy technology entrepreneur and researcher</p>
       <h1>Building practical decision systems for electricity markets and the energy transition.</h1>
       <p class="founder-hero__lead">
-        I work across company building, power trading, and applied research, turning forecasting,
-        optimization, and AI into products and decision workflows that energy organizations can use in the real world.
+        I work across energy entrepreneurship, market practice, and applied research, turning forecasting,
+        optimization, and AI into products, tools, and decision workflows for real business settings.
       </p>
       <div class="founder-actions">
         <a class="founder-button founder-button--primary" href="{{ '/research/' | relative_url }}">View Research</a>
@@ -41,7 +41,7 @@ redirect_from:
           </div>
           <div class="founder-stat">
             <p class="founder-stat__label">Recent Roles</p>
-            <p class="founder-stat__value">Reneng Technology, Energy Quant, TU Delft, OTC Flow, and Northpool.</p>
+            <p class="founder-stat__value">Beijing Reneng Technology, TU Delft, and Northpool.</p>
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@ redirect_from:
   <section class="founder-section founder-panel" id="selected-work">
     <div class="section-heading">
       <p class="section-kicker">Selected Work</p>
-      <h2>Founder, operator, researcher</h2>
+      <h2>Founder, builder, researcher</h2>
       <p>A few public threads that define the current direction.</p>
     </div>
     <div class="founder-card-grid">
@@ -82,12 +82,12 @@ redirect_from:
         <p>Public-facing work around AI-enabled market intelligence, digital tools, and decision support for the energy sector in China.</p>
       </article>
       <article class="founder-card">
-        <h3>Energy Quant</h3>
-        <p>Entrepreneurial exploration focused on energy-market tooling, strategy, and research-to-product translation.</p>
+        <h3>Product and Strategy</h3>
+        <p>Translating market analysis, modeling, and founder judgment into tools, workflows, and usable energy-market products.</p>
       </article>
       <article class="founder-card">
-        <h3>European Power Trading</h3>
-        <p>Work at Northpool and OTC Flow shaped a practical view of short-term markets, price formation, and execution reality.</p>
+        <h3>European Power Market Practice</h3>
+        <p>Experience at Northpool shaped a practical view of short-term markets, price formation, and execution reality.</p>
       </article>
     </div>
   </section>
@@ -157,11 +157,11 @@ redirect_from:
       </li>
       <li class="selected-publications__item">
         <strong>2025</strong>
-        <span>Awarded the NWO Rubicon Fellowship and won the Netherlands division of the Shenzhen Innovation and Entrepreneurship Competition.</span>
+        <span>Completed an angel financing round in December 2025, was selected for the Rubicon Fund, and won the Netherlands division of the Shenzhen Innovation and Entrepreneurship Competition.</span>
       </li>
       <li class="selected-publications__item">
         <strong>2024</strong>
-        <span>Expanded from doctoral research into entrepreneurship and European short-term power trading roles.</span>
+        <span>Moved from doctoral research into company building and European power-market practice.</span>
       </li>
     </ul>
     <div class="page-links" style="margin-top: 1rem;">
@@ -187,7 +187,7 @@ redirect_from:
       <p class="founder-hero__eyebrow">能源科技创业者与研究者</p>
       <h1>为电力市场与能源转型构建真正可落地的决策系统。</h1>
       <p class="founder-hero__lead">
-        我的工作连接创业、能源交易与应用研究，把预测、优化与 AI 方法转化为能源组织在真实业务场景中可使用的产品与决策工作流。
+        我的工作连接能源科技创业、市场实践与应用研究，把预测、优化与 AI 方法做成可在真实业务中落地的产品、工具与决策工作流。
       </p>
       <div class="founder-actions">
         <a class="founder-button founder-button--primary" href="{{ '/research/' | relative_url }}">查看研究</a>
@@ -211,7 +211,7 @@ redirect_from:
           </div>
           <div class="founder-stat">
             <p class="founder-stat__label">近期角色</p>
-            <p class="founder-stat__value">任能科技、Energy Quant、TU Delft、OTC Flow 与 Northpool。</p>
+            <p class="founder-stat__value">北京任能科技、TU Delft 与 Northpool。</p>
           </div>
         </div>
       </div>
@@ -243,7 +243,7 @@ redirect_from:
   <section class="founder-section founder-panel" id="selected-work">
     <div class="section-heading">
       <p class="section-kicker">代表性工作</p>
-      <h2>创业者、实践者、研究者三条线并行</h2>
+      <h2>创业者、建设者、研究者三条线并行</h2>
       <p>下面这些公开线索，基本定义了我当下的工作面貌。</p>
     </div>
     <div class="founder-card-grid">
@@ -252,12 +252,12 @@ redirect_from:
         <p>围绕中国能源行业的 AI 市场情报、数字化工具和决策支持，推进公开面向市场的能源科技工作。</p>
       </article>
       <article class="founder-card">
-        <h3>Energy Quant</h3>
-        <p>围绕能源市场工具、战略判断与研究转产品展开创业探索。</p>
+        <h3>产品与战略</h3>
+        <p>把市场分析、模型方法与创业判断转化为工具、工作流与可使用的能源市场产品。</p>
       </article>
       <article class="founder-card">
-        <h3>欧洲电力交易实践</h3>
-        <p>在 Northpool 与 OTC Flow 的经历，使我对短期市场、价格形成与执行现实有了更直接的理解。</p>
+        <h3>欧洲电力市场实践</h3>
+        <p>Northpool 的经历使我对短期市场、价格形成与执行现实有了更直接的理解。</p>
       </article>
     </div>
   </section>
@@ -327,11 +327,11 @@ redirect_from:
       </li>
       <li class="selected-publications__item">
         <strong>2025</strong>
-        <span>获得荷兰 NWO Rubicon Fellowship，并获得深圳创新创业大赛荷兰赛区冠军。</span>
+        <span>2025 年 12 月完成天使轮融资，并入选荷兰高层次青年人才计划 Rubicon 基金，获得深圳创新创业大赛荷兰赛区冠军。</span>
       </li>
       <li class="selected-publications__item">
         <strong>2024</strong>
-        <span>从博士研究进一步走向创业实践，并进入欧洲短期电力交易相关岗位。</span>
+        <span>从博士研究进一步走向创业实践与欧洲电力市场工作。</span>
       </li>
     </ul>
     <div class="page-links" style="margin-top: 1rem;">

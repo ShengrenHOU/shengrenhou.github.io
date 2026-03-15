@@ -11,7 +11,8 @@ permalink: /research/
     <div class="section-heading">
       <p class="section-kicker">Research</p>
       <h2>Methods and themes behind the work</h2>
-      <p>This page captures the analytical backbone behind the founder work: electricity markets, energy AI, storage strategy, and deployable decision systems.</p>
+      <p>This work is driven by a long-term ambition: improving power-market efficiency and helping build a more sustainable energy system through AI, market design, and trading practice.</p>
+      <p>I pay particular attention to short-term power markets, where renewable uncertainty, self-dispatch, and price formation meet most directly.</p>
     </div>
   </div>
 
@@ -84,7 +85,8 @@ permalink: /research/
     <div class="section-heading">
       <p class="section-kicker">研究</p>
       <h2>支撑这些工作的研究方法与主题</h2>
-      <p>这里展示的是 founder 工作背后的分析底座：电力市场、能源 AI、储能策略与可部署的决策系统。</p>
+      <p>这部分工作的长期目标，是通过 AI、市场设计与交易实践提升电力市场效率，并帮助构建更可持续的能源系统。</p>
+      <p>我尤其关注短期电力市场，因为可再生能源不确定性、自调度机制与价格发现，往往在这里最直接地相遇。</p>
     </div>
   </div>
 
