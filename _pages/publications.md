@@ -1,6 +1,8 @@
 ---
 layout: single-clean
 title: "Publications"
+excerpt: "Selected publications in energy systems, reinforcement learning, electricity markets, and storage dispatch."
+description: "Selected publications in energy systems, reinforcement learning, electricity markets, and storage dispatch."
 permalink: /publications/
 ---
 
@@ -9,7 +11,7 @@ permalink: /publications/
     <div class="section-heading">
       <p class="section-kicker">Publications</p>
       <h2>Selected academic record</h2>
-      <p>This page shows a small public selection and points to Google Scholar for the full list.</p>
+      <p>This page shows a compact public selection and points to Google Scholar for the full record.</p>
     </div>
   </div>
 

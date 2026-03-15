@@ -1,6 +1,8 @@
 ---
 layout: single-clean
 title: "Research"
+excerpt: "Research themes spanning electricity markets, energy AI, storage strategy, and deployable decision systems."
+description: "Research themes spanning electricity markets, energy AI, storage strategy, and deployable decision systems."
 permalink: /research/
 ---
 
@@ -9,7 +11,7 @@ permalink: /research/
     <div class="section-heading">
       <p class="section-kicker">Research</p>
       <h2>Methods and themes behind the work</h2>
-      <p>This page focuses on the analytical backbone: electricity markets, energy AI, storage strategy, and research translation.</p>
+      <p>This page captures the analytical backbone behind the founder work: electricity markets, energy AI, storage strategy, and deployable decision systems.</p>
     </div>
   </div>
 
@@ -21,7 +23,7 @@ permalink: /research/
     <div class="research-grid page-grid">
       <article class="page-card">
         <h3>Electricity Markets</h3>
-        <p>Market design, price formation, short-term market behavior, and cross-border mechanisms.</p>
+        <p>Market design, price formation, short-term market behavior, and cross-border trading mechanisms.</p>
       </article>
       <article class="page-card">
         <h3>Energy AI</h3>
@@ -29,11 +31,11 @@ permalink: /research/
       </article>
       <article class="page-card">
         <h3>Storage and Flexibility</h3>
-        <p>Battery dispatch, flexibility assets, and market participation under operational constraints.</p>
+        <p>Battery dispatch, flexibility assets, and market participation under operational and regulatory constraints.</p>
       </article>
       <article class="page-card">
         <h3>Energy Digitalization</h3>
-        <p>Turning models and workflows into decision systems that are deployable in real organizations.</p>
+        <p>Turning models and workflows into decision systems that real energy organizations can deploy and use.</p>
       </article>
     </div>
   </div>
@@ -46,11 +48,11 @@ permalink: /research/
     <div class="page-grid">
       <article class="page-card">
         <h3>Modeling Stack</h3>
-        <p>Time-series forecasting, feature engineering, probabilistic modeling, and optimization.</p>
+        <p>Time-series forecasting, feature engineering, probabilistic modeling, optimization, and scenario analysis.</p>
       </article>
       <article class="page-card">
         <h3>Decision Stack</h3>
-        <p>Constraint-aware decision models, reinforcement learning, and safe AI for energy systems.</p>
+        <p>Constraint-aware decision models, reinforcement learning, and safe AI for energy systems and market workflows.</p>
       </article>
     </div>
   </div>
@@ -82,7 +84,7 @@ permalink: /research/
     <div class="section-heading">
       <p class="section-kicker">研究</p>
       <h2>支撑这些工作的研究方法与主题</h2>
-      <p>这里展示的是方法论底层：电力市场、能源 AI、储能策略与研究转化。</p>
+      <p>这里展示的是 founder 工作背后的分析底座：电力市场、能源 AI、储能策略与可部署的决策系统。</p>
     </div>
   </div>
 
@@ -94,19 +96,19 @@ permalink: /research/
     <div class="research-grid page-grid">
       <article class="page-card">
         <h3>电力市场</h3>
-        <p>关注市场设计、价格形成、短期市场行为以及跨区机制。</p>
+        <p>关注市场设计、价格形成、短期市场行为以及跨区交易机制。</p>
       </article>
       <article class="page-card">
         <h3>能源 AI</h3>
-        <p>关注预测、概率建模、优化以及复杂能源环境下的安全决策系统。</p>
+        <p>关注预测、概率建模、优化以及复杂能源场景中的安全决策系统。</p>
       </article>
       <article class="page-card">
         <h3>储能与灵活性</h3>
-        <p>聚焦储能调度、灵活性资产与市场参与逻辑。</p>
+        <p>聚焦储能调度、灵活性资源以及受运行与规则约束影响的市场参与逻辑。</p>
       </article>
       <article class="page-card">
         <h3>能源数字化</h3>
-        <p>把模型与工作流转成组织真正能部署和使用的决策系统。</p>
+        <p>把模型与工作流做成能源组织真正能部署、能使用的决策系统。</p>
       </article>
     </div>
   </div>
@@ -119,11 +121,11 @@ permalink: /research/
     <div class="page-grid">
       <article class="page-card">
         <h3>建模栈</h3>
-        <p>时间序列预测、特征工程、概率建模与优化。</p>
+        <p>时间序列预测、特征工程、概率建模、优化与情景分析。</p>
       </article>
       <article class="page-card">
         <h3>决策栈</h3>
-        <p>约束感知决策模型、强化学习与面向能源系统的安全 AI。</p>
+        <p>约束感知决策模型、强化学习与面向能源系统和市场工作流的安全 AI。</p>
       </article>
     </div>
   </div>

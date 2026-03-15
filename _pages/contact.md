@@ -1,6 +1,8 @@
 ---
 layout: single-clean
 title: "Contact"
+excerpt: "Public contact details and collaboration topics for Hou Shengren across energy technology, electricity markets, and energy AI."
+description: "Public contact details and collaboration topics for Hou Shengren across energy technology, electricity markets, and energy AI."
 permalink: /contact/
 ---
 
@@ -45,7 +47,7 @@ permalink: /contact/
       </article>
       <article class="page-card">
         <h3>Public Engagement</h3>
-        <p>Speaking, workshops, founder conversations, and public collaboration opportunities.</p>
+        <p>Speaking, workshops, founder conversations, and selective public collaboration opportunities.</p>
       </article>
     </div>
   </div>
@@ -92,7 +94,7 @@ permalink: /contact/
       </article>
       <article class="page-card">
         <h3>公开交流</h3>
-        <p>演讲、工作坊、创业交流与公开合作机会。</p>
+        <p>演讲、工作坊、创业交流与有选择的公开合作机会。</p>
       </article>
     </div>
   </div>

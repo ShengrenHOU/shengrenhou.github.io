@@ -1,6 +1,8 @@
 ---
 layout: single-clean
 title: "CV"
+excerpt: "Public-profile CV of Hou Shengren covering education, selected roles, public projects, and honors."
+description: "Public-profile CV of Hou Shengren covering education, selected roles, public projects, and honors."
 permalink: /cv/
 redirect_from:
   - /resume
@@ -34,7 +36,7 @@ redirect_from:
     </div>
     <ul class="experience-list">
       <li class="experience-list__item"><strong>CEO, Energy Quant</strong><span>Strategy, energy-market tooling, and commercialization direction.</span></li>
-      <li class="experience-list__item"><strong>Director and General Manager, Beijing Reneng Technology</strong><span>Public-facing work around energy digitalization, AI-enabled market intelligence, and decision support.</span></li>
+      <li class="experience-list__item"><strong>Director &amp; General Manager, Beijing Reneng Technology</strong><span>Public-facing work around energy digitalization, AI-enabled market intelligence, and decision support.</span></li>
       <li class="experience-list__item"><strong>Founder, Energy Quant Research Institution</strong><span>Research-to-product translation in energy markets and intelligent decision systems.</span></li>
       <li class="experience-list__item"><strong>Quantitative Power Trader, OTC Flow</strong><span>European short-term power trading, forecasting, and strategy development.</span></li>
       <li class="experience-list__item"><strong>Power Trader / Market Researcher, Northpool</strong><span>Cross-border and short-term electricity market analysis and trading practice.</span></li>
@@ -72,7 +74,7 @@ redirect_from:
     <div class="section-heading">
       <p class="section-kicker">简历</p>
       <h2>公开版个人履历</h2>
-      <p>这里保留教育背景、代表经历、项目与公开角色，不展示个人隐私和公司内部信息。</p>
+      <p>这里保留教育背景、代表经历、项目与公共角色，不展示个人隐私和公司内部信息。</p>
     </div>
   </div>
 

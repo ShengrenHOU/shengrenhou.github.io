@@ -36,24 +36,15 @@ def main() -> int:
     failures: list[str] = []
 
     config = read_text("_config.yml")
-    ensure_contains(
-        config,
+    for needle in [
         'url: "https://shengrenhou.github.io"',
-        failures,
-        "_config.yml",
-    )
-    ensure_contains(
-        config,
         'baseurl: ""',
-        failures,
-        "_config.yml",
-    )
-    ensure_contains(
-        config,
         'repository: "ShengrenHOU/shengrenhou.github.io"',
-        failures,
-        "_config.yml",
-    )
+        'locale: "en_US"',
+        'title_separator: "|"',
+        'og_image                 : "profile_hou.jpg"',
+    ]:
+        ensure_contains(config, needle, failures, "_config.yml")
     ensure_not_contains(config, "https://energyquantresearch.github.io", failures, "_config.yml")
 
     nav = read_text("_data/navigation.yml")
@@ -78,6 +69,7 @@ def main() -> int:
         "_includes/masthead.html": ["site-language-switcher", 'data-lang-option="en"', 'data-lang-option="zh"'],
         "_includes/scripts.html": ["lang-toggle.js"],
         "_includes/head/custom.html": ["localStorage", "navigator.language", "data-site-lang"],
+        "_includes/seo.html": ["page.seo_title", 'meta name="description"', "seo_site_name", '"sameAs"'],
         "assets/css/main.scss": ['@import "founder-site";'],
         "assets/js/lang-toggle.js": ["localStorage", "navigator.language", "data-site-lang", "data-lang-option"],
     }
@@ -92,6 +84,8 @@ def main() -> int:
         "_pages/about.md": {
             "layout": "layout: home-founder",
             "expected": [
+                'seo_title: "Hou Shengren | 侯胜任"',
+                'excerpt: "Founder website of Hou Shengren',
                 'data-lang="en"',
                 'data-lang="zh"',
                 "founder-hero",
@@ -105,23 +99,23 @@ def main() -> int:
         },
         "_pages/news.md": {
             "layout": "layout: single-clean",
-            "expected": ['data-lang="en"', 'data-lang="zh"', "news-timeline", "2026", "2025"],
+            "expected": ['excerpt: "Selected public milestones', 'data-lang="en"', 'data-lang="zh"', "news-timeline", "2026", "2025"],
         },
         "_pages/research.md": {
             "layout": "layout: single-clean",
-            "expected": ['data-lang="en"', 'data-lang="zh"', "research-grid", "Research Themes", "研究主题"],
+            "expected": ['excerpt: "Research themes spanning', 'data-lang="en"', 'data-lang="zh"', "research-grid", "Research Themes", "研究主题"],
         },
         "_pages/publications.md": {
             "layout": "layout: single-clean",
-            "expected": ['data-lang="en"', 'data-lang="zh"', "publication-list", "Google Scholar", "代表性论文"],
+            "expected": ['excerpt: "Selected publications in energy systems', 'data-lang="en"', 'data-lang="zh"', "publication-list", "Google Scholar", "代表性论文"],
         },
         "_pages/cv.md": {
             "layout": "layout: single-clean",
-            "expected": ['data-lang="en"', 'data-lang="zh"', "experience-list", "Selected Experience", "经历精选"],
+            "expected": ['excerpt: "Public-profile CV of Hou Shengren', 'data-lang="en"', 'data-lang="zh"', "experience-list", "Selected Experience", "经历精选"],
         },
         "_pages/contact.md": {
             "layout": "layout: single-clean",
-            "expected": ['data-lang="en"', 'data-lang="zh"', "contact-methods", "Collaboration", "合作方向"],
+            "expected": ['excerpt: "Public contact details and collaboration topics', 'data-lang="en"', 'data-lang="zh"', "contact-methods", "Collaboration", "合作方向"],
         },
     }
     forbidden_page_strings = [
@@ -157,6 +151,7 @@ def main() -> int:
         ensure_not_contains(readme, forbidden, failures, "README.md")
 
     authors = read_text("_data/authors.yml")
+    ensure_contains(authors, 'uri         : "https://shengrenhou.github.io/"', failures, "_data/authors.yml")
     for forbidden in ["Name Name", "http://name.com", "name@name.com"]:
         ensure_not_contains(authors, forbidden, failures, "_data/authors.yml")
 

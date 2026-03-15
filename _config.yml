@@ -10,10 +10,12 @@
 # Basic Site Settings
 name: &name "Hou Shengren"
 title: "Hou Shengren | 侯胜任"
-description: "Energy technology entrepreneur and researcher"
+description: "Founder website of Hou Shengren, focused on energy technology, electricity markets, and energy AI."
+locale: "en_US"
 url: "https://shengrenhou.github.io"
 baseurl: ""
 repository: "ShengrenHOU/shengrenhou.github.io"
+title_separator: "|"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -134,13 +136,16 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "profile_hou.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person"
+  name                   : "Hou Shengren"
+  links:
+    - "https://shengrenhou.github.io/"
+    - "https://github.com/shengrenhou"
+    - "https://scholar.google.com/citations?user=0pHHqwYAAAAJ&hl=zh-CN"
 
 
 # Analytics

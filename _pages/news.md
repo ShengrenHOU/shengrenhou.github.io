@@ -1,6 +1,8 @@
 ---
 layout: single-clean
 title: "News"
+excerpt: "Selected public milestones across entrepreneurship, research, awards, and market-facing energy work."
+description: "Selected public milestones across entrepreneurship, research, awards, and market-facing energy work."
 permalink: /news/
 ---
 
@@ -9,7 +11,7 @@ permalink: /news/
     <div class="section-heading">
       <p class="section-kicker">News</p>
       <h2>Selected public milestones</h2>
-      <p>A compact timeline of entrepreneurship, research, and market-facing work.</p>
+      <p>A compact timeline across entrepreneurship, research, and market-facing energy work.</p>
     </div>
   </div>
 
@@ -18,7 +20,7 @@ permalink: /news/
       <h3 class="news-timeline__year">2026</h3>
       <ul class="news-timeline__list">
         <li>Continuing to build public-facing energy technology work focused on AI-enabled decision systems and market digitalization.</li>
-        <li>This site was redesigned as a founder-and-researcher public profile.</li>
+        <li>Launched the renewed founder-and-researcher public website.</li>
       </ul>
     </div>
 
@@ -55,7 +57,7 @@ permalink: /news/
     <div class="section-heading">
       <p class="section-kicker">动态</p>
       <h2>公开里程碑</h2>
-      <p>这里汇总创业、研究与面向市场工作的关键公开节点。</p>
+      <p>这里汇总创业、研究与面向市场能源实践中的关键公开节点。</p>
     </div>
   </div>
 
@@ -64,7 +66,7 @@ permalink: /news/
       <h3 class="news-timeline__year">2026</h3>
       <ul class="news-timeline__list">
         <li>继续推进以 AI 决策系统和市场数字化为重点的公开面向市场能源科技工作。</li>
-        <li>本站完成 Founder + Researcher 方向的全新改版。</li>
+        <li>发布新版 Founder + Researcher 个人公共网站。</li>
       </ul>
     </div>
 
@@ -73,7 +75,7 @@ permalink: /news/
       <ul class="news-timeline__list">
         <li>获得荷兰 NWO Rubicon Fellowship。</li>
         <li>获得深圳创新创业大赛荷兰赛区冠军。</li>
-        <li>论文 <em>RL-ADN</em> 发表于 <em>Energy and AI</em>。</li>
+        <li>论文 <em>RL-ADN</em> 发表在 <em>Energy and AI</em>。</li>
         <li>围绕 Energy Quant 持续推进创业探索与能源市场产品化工作。</li>
       </ul>
     </div>
