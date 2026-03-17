@@ -216,6 +216,9 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
+  essays:
+    output: true
+    permalink: /essays/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
@@ -285,6 +288,15 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _essays
+  - scope:
+      path: ""
+      type: essays
+    values:
+      layout: essay
+      author_profile: false
+      share: false
+      comments: false
 
 
 # Sass/SCSS

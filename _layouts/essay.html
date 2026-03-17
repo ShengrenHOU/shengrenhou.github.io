@@ -1,0 +1,90 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+{% assign essays = site.essays | sort: "date" | reverse %}
+{% assign newer_essay = nil %}
+{% assign older_essay = nil %}
+{% assign found_current = false %}
+{% for essay in essays %}
+  {% if found_current and older_essay == nil %}
+    {% assign older_essay = essay %}
+    {% break %}
+  {% endif %}
+  {% if essay.url == page.url %}
+    {% assign found_current = true %}
+  {% else %}
+    {% assign newer_essay = essay %}
+  {% endif %}
+{% endfor %}
+
+<div id="main" class="clean-main" role="main">
+  <article class="page page--clean essay-page" itemscope itemtype="http://schema.org/Article">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+
+    <div class="page__inner-wrap page__inner-wrap--clean">
+      <section class="page-panel essay-article">
+        <header class="essay-header">
+          <div class="lang-block" data-lang="en">
+            <p class="page-heading__eyebrow">Essay</p>
+          </div>
+          <div class="lang-block" data-lang="zh">
+            <p class="page-heading__eyebrow">随笔</p>
+          </div>
+
+          <h1 class="essay-title" itemprop="headline">{{ page.title_zh | default: page.title }}</h1>
+          {% if page.subtitle %}<p class="essay-subtitle">{{ page.subtitle }}</p>{% endif %}
+
+          <div class="essay-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+            {% if page.tags %}
+            <div class="essay-tag-list">
+              {% for tag in page.tags %}
+              <span class="essay-tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </header>
+
+        <div class="essay-body" itemprop="articleBody">
+          {{ content }}
+        </div>
+      </section>
+
+      {% if page.english_abstract %}
+      <section class="page-panel essay-abstract">
+        <div class="lang-block" data-lang="en">
+          <h2>English Abstract</h2>
+        </div>
+        <div class="lang-block" data-lang="zh">
+          <h2>英文摘要</h2>
+        </div>
+        <div class="essay-abstract__content">
+          {{ page.english_abstract | markdownify }}
+        </div>
+      </section>
+      {% endif %}
+
+      <nav class="page-panel essay-nav">
+        <div class="lang-block" data-lang="en">
+          <div class="essay-nav__links">
+            <a class="page-link-chip" href="{{ '/essays/' | relative_url }}">Back to Essays</a>
+            {% if newer_essay %}<a class="page-link-chip" href="{{ newer_essay.url | relative_url }}">Newer: {{ newer_essay.title_zh | default: newer_essay.title }}</a>{% endif %}
+            {% if older_essay %}<a class="page-link-chip" href="{{ older_essay.url | relative_url }}">Older: {{ older_essay.title_zh | default: older_essay.title }}</a>{% endif %}
+          </div>
+        </div>
+        <div class="lang-block" data-lang="zh">
+          <div class="essay-nav__links">
+            <a class="page-link-chip" href="{{ '/essays/' | relative_url }}">返回随笔</a>
+            {% if newer_essay %}<a class="page-link-chip" href="{{ newer_essay.url | relative_url }}">更新一篇：{{ newer_essay.title_zh | default: newer_essay.title }}</a>{% endif %}
+            {% if older_essay %}<a class="page-link-chip" href="{{ older_essay.url | relative_url }}">上一篇：{{ older_essay.title_zh | default: older_essay.title }}</a>{% endif %}
+          </div>
+        </div>
+      </nav>
+    </div>
+  </article>
+</div>

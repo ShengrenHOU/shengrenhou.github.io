@@ -43,13 +43,16 @@ def main() -> int:
         'locale: "en_US"',
         'title_separator: "|"',
         'og_image                 : "profile_hou.jpg"',
+        "  essays:",
+        "    output: true",
+        "    permalink: /essays/:path/",
     ]:
         ensure_contains(config, needle, failures, "_config.yml")
     ensure_not_contains(config, "https://energyquantresearch.github.io", failures, "_config.yml")
 
     nav = read_text("_data/navigation.yml")
     titles = re.findall(r'title:\s*"([^"]+)"', nav)
-    expected_titles = ["About", "News", "Research", "Publications", "CV", "Contact"]
+    expected_titles = ["About", "Essays", "News", "Research", "Publications", "CV", "Contact"]
     if titles[: len(expected_titles)] != expected_titles:
         failures.append(
             f"_data/navigation.yml: expected leading nav order {expected_titles}, got {titles[:len(expected_titles)]}"
@@ -58,9 +61,12 @@ def main() -> int:
     for relative_path in [
         "_layouts/home-founder.html",
         "_layouts/single-clean.html",
+        "_layouts/essay.html",
         "_sass/_founder-site.scss",
         "assets/js/lang-toggle.js",
         "_pages/publications.md",
+        "_pages/essays.md",
+        "_essays/2026-03-17-do-not-wait.md",
     ]:
         ensure_exists(relative_path, failures)
     ensure_missing("_pages/publications.html", failures)
@@ -95,8 +101,23 @@ def main() -> int:
                 "selected-work",
                 "research-foundations",
                 "selected-publications",
+                "selected-essays",
                 "recent-news",
                 "contact-cta",
+            ],
+        },
+        "_pages/essays.md": {
+            "layout": "layout: single-clean",
+            "expected": [
+                'excerpt: "Selected essays and reflections by Hou Shengren',
+                'data-lang="en"',
+                'data-lang="zh"',
+                "essay-index",
+                "Selected Essays",
+                "随笔",
+                "site.essays",
+                "Read Essay",
+                "阅读随笔",
             ],
         },
         "_pages/news.md": {
@@ -136,6 +157,18 @@ def main() -> int:
         "_pages/contact.md": {
             "layout": "layout: single-clean",
             "expected": ['excerpt: "Public contact details and collaboration topics', 'data-lang="en"', 'data-lang="zh"', "contact-methods", "Collaboration", "合作方向"],
+        },
+        "_essays/2026-03-17-do-not-wait.md": {
+            "layout": "layout: essay",
+            "expected": [
+                'title: "Do Not Wait"',
+                'title_zh: "不要等"',
+                "english_abstract:",
+                "tags:",
+                "AI",
+                "Life",
+                "Power Markets",
+            ],
         },
     }
     forbidden_page_strings = [

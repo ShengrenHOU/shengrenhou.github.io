@@ -10,6 +10,8 @@ redirect_from:
   - /about.html
 ---
 
+{% assign featured_essays = site.essays | where: "featured", true | sort: "date" | reverse %}
+
 <div class="lang-block founder-flow" data-lang="en">
   <section class="founder-hero founder-panel" id="founder-hero">
     <div class="founder-hero__copy">
@@ -141,6 +143,29 @@ redirect_from:
     <div class="page-links" style="margin-top: 1rem;">
       <a class="page-link-chip" href="{{ '/publications/' | relative_url }}">Browse publications</a>
       <a class="page-link-chip" href="https://scholar.google.com/citations?user=0pHHqwYAAAAJ&hl=zh-CN">Google Scholar</a>
+    </div>
+  </section>
+
+  <section class="founder-section founder-panel" id="selected-essays">
+    <div class="section-heading">
+      <p class="section-kicker">Selected Essays</p>
+      <h2>Thoughts on AI, power markets, entrepreneurship, and life</h2>
+      <p>A Chinese-first writing space with English subtitles and abstracts.</p>
+    </div>
+    <div class="essay-highlight-grid">
+      {% for essay in featured_essays limit:2 %}
+      <article class="page-card essay-card">
+        <p class="essay-card__date">{{ essay.date | date: "%Y-%m-%d" }}</p>
+        <h3><a href="{{ essay.url | relative_url }}">{{ essay.title_zh | default: essay.title }}</a></h3>
+        <p class="essay-card__subtitle">{{ essay.subtitle }}</p>
+        <p class="essay-card__meta">{{ essay.tags | join: " · " }}</p>
+        <p class="essay-card__excerpt">{{ essay.excerpt }}</p>
+        <a class="page-link-chip" href="{{ essay.url | relative_url }}">Read Essay</a>
+      </article>
+      {% endfor %}
+    </div>
+    <div class="page-links" style="margin-top: 1rem;">
+      <a class="page-link-chip" href="{{ '/essays/' | relative_url }}">View all essays</a>
     </div>
   </section>
 
@@ -311,6 +336,29 @@ redirect_from:
     <div class="page-links" style="margin-top: 1rem;">
       <a class="page-link-chip" href="{{ '/publications/' | relative_url }}">浏览论文</a>
       <a class="page-link-chip" href="https://scholar.google.com/citations?user=0pHHqwYAAAAJ&hl=zh-CN">Google Scholar</a>
+    </div>
+  </section>
+
+  <section class="founder-section founder-panel" id="selected-essays">
+    <div class="section-heading">
+      <p class="section-kicker">随笔</p>
+      <h2>关于 AI、电力市场、创业与人生的长期表达</h2>
+      <p>中文为主写作，配英文副标题与英文摘要。</p>
+    </div>
+    <div class="essay-highlight-grid">
+      {% for essay in featured_essays limit:2 %}
+      <article class="page-card essay-card">
+        <p class="essay-card__date">{{ essay.date | date: "%Y-%m-%d" }}</p>
+        <h3><a href="{{ essay.url | relative_url }}">{{ essay.title_zh | default: essay.title }}</a></h3>
+        <p class="essay-card__subtitle">{{ essay.subtitle }}</p>
+        <p class="essay-card__meta">{{ essay.tags | join: " · " }}</p>
+        <p class="essay-card__excerpt">{{ essay.excerpt }}</p>
+        <a class="page-link-chip" href="{{ essay.url | relative_url }}">阅读随笔</a>
+      </article>
+      {% endfor %}
+    </div>
+    <div class="page-links" style="margin-top: 1rem;">
+      <a class="page-link-chip" href="{{ '/essays/' | relative_url }}">查看全部随笔</a>
     </div>
   </section>
 
